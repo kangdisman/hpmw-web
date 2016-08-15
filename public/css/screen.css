@@ -1,0 +1,23 @@
+#content {
+	position:relative;
+}			
+#slider li, #slider2 li {
+	width:600px;
+	height:450px;
+}	
+#prevBtn, #nextBtn, #slider1next, #slider1prev { 
+	position:absolute;
+	left:-30px;
+	top:160px;
+}	
+#nextBtn { 
+	left:600px;
+}														
+#prevBtn a, #nextBtn a, #slider1next a, #slider1prev a {  
+	display:block;
+	height:77px;
+	background:url(../images/btn_prev.gif) no-repeat 0 0;	
+}	
+#nextBtn a, #slider1next a { 
+	background:url(../images/btn_next.gif) no-repeat 0 0;	
+}
